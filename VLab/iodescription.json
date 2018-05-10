@@ -49,14 +49,6 @@
       "name": "mean xpx ypx",
       "valueSchema": "url",
       "target": "meanxpxypx.txt" 
- },
-  {   "id": "DataObject_0n98v5p",
-      "outputType": "individual",
-      "valueType": "value",
-      "description": "concessions tif file",
-      "name": "rasterized concessions",
-      "valueSchema": "url",
-      "target": "vect.tif"   
 }
  ]
 }
