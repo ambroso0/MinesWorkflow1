@@ -1,0 +1,62 @@
+{
+  "inputs": [
+    {
+      "id": "DataObject_0h3a3ff",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "forest cover raster file",
+      "name": "forest raster",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "url",
+      "target": "Hansen_GFC2015_treecover2000_00N_020E.tif"
+ }, 
+  {
+      "id": "DataObject_0h3a3f0",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "mining concessions vector file",
+      "name": "mining vector",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "url",
+      "target": "concessions.tar.gz"
+ }
+  ],
+  "outputs": [
+    {
+      "id": "DataObject_0n95v5p",
+      "outputType": "individual",
+      "valueType": "value",
+      "description": "raster sum file text",
+      "name": "raster sum",
+      "valueSchema": "url",
+      "target": "rast_sum.txt"
+ },
+  {
+      "id": "DataObject_0n96v5p",
+      "outputType": "individual",
+      "valueType": "value",
+      "description": "extent of the raster file text",
+      "name": "raster extent",
+      "valueSchema": "url",
+      "target": "wsen.txt" 
+ },
+  {   "id": "DataObject_0n97v5p",
+      "outputType": "individual",
+      "valueType": "value",
+      "description": "mean xpx ypx file text",
+      "name": "mean xpx ypx",
+      "valueSchema": "url",
+      "target": "meanxpxypx.txt" 
+ },
+  {   "id": "DataObject_0n98v5p",
+      "outputType": "individual",
+      "valueType": "value",
+      "description": "concessions tif file",
+      "name": "rasterized concessions",
+      "valueSchema": "url",
+      "target": "vect.tif"   
+}
+ ]
+}

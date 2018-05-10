@@ -1,0 +1,9 @@
+{
+  "scripts": [
+    {
+      "repoPath": "newtry.sh",
+      "targetPath": "newtry.sh",
+      "pathType": "FILE"
+ }
+  ]
+}
