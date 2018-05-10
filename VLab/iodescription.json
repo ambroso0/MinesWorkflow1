@@ -34,7 +34,7 @@
       "target": "rast_sum.txt"
  },
   {
-      "id": "DataObject_0n96v5p",
+      "id": "DataObject_0n96v6p",
       "outputType": "individual",
       "valueType": "value",
       "description": "extent of the raster file text",
@@ -42,7 +42,7 @@
       "valueSchema": "url",
       "target": "wsen.txt" 
  },
-  {   "id": "DataObject_0n97v5p",
+  {   "id": "DataObject_0n97v7p",
       "outputType": "individual",
       "valueType": "value",
       "description": "mean xpx ypx file text",
